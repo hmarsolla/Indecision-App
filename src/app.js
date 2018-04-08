@@ -19,14 +19,20 @@ var user = {
     location : "São Paulo"
 };
 
+function getLocation(location) {
+    if(location){
+        return <p id="userLocation">Location: {location}</p>;
+    }
+}
+
 var templateTwo = (
     <div>
         <h1 id="name">{user.name}</h1>
         <p id="age">Age: {user.age}</p>
-        <p id="userLocation">Location: {user.location}</p>
+        {getLocation(user.location)}
     </div>
 );
 
 var appRoot = document.getElementById("app");
 
-ReactDOM.render(template, appRoot);
+ReactDOM.render(templateTwo, appRoot);
