@@ -1,0 +1,12 @@
+{
+  "name": "Indecision-App",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/hmarsolla/Indecision-App.git",
+  "author": "hmarsolla",
+  "license": "MIT",
+  "dependencies": {
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1"
+  }
+}
